@@ -51,15 +51,24 @@ body {
     min-width: 100vh;
 }
 .inicio {
-    background-color:#b4b3ae;
-    
+   /* background-color:#b4b3ae;*/
+background-image: url(auto\ f1.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+justify-content: center;
+align-items: center;    
+
 }
 
 .titulo-inicio {
-    text-align: center;
-padding: 0px 10px 15px 10px;
+justify-content: center;
+padding: 10px 20px;
 font-family: sans-serif ;
-color: #333; 
+display: flex;
+/* color: #333; */
+background-color: #555;
+color: white;
 font-weight: 900;
 font-size: 2rem;
 text-transform: uppercase;
@@ -76,7 +85,8 @@ line-height: 1.2;
     font-family: sans-serif;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    color: #333; 
+    color: white;
+    /*color: #333;*/ 
     font-weight: 700;
     line-height: 1.2;
 }
@@ -94,10 +104,10 @@ img{
 }
 .logos-f1{
     display: flex;
-    gap: 310PX;
+    gap: 260PX;
     flex-wrap: wrap;
+ 
 }
-
 .logos-f1 {
 width: 100%;
 padding: 1rem;
@@ -120,7 +130,46 @@ padding: 1rem;
 text-decoration: double;
 }
 
+/*seccion sobre mi */
+
+.sobre-mi {
+    background-color: #aaa9a1;
 
 
+    
+}
+
+.mi-nombre {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: larger;
+    color: #fdfdfd;
+    text-align: center;
+    justify-content: center ;
+    padding: 20px;
+    
+    background-color: #555;
+
+}
+.imagen-mia-contenedor {
+    min-width: 100vh;
+    text-align: center;
+    height:auto;
+
+}
+.imagen-mia {
+    margin: 40px;
+}
+
+.mi-descripcion {
+    text-align: center;
+    justify-content: center;
+font-weight: 500;
+font-family: sans-serif;
+font-size: 1.5rem;
+margin: 20px;
+padding-top: 20px;
+;
+}
 
 
