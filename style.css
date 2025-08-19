@@ -160,8 +160,8 @@ text-decoration: double;
 }
 .imagen-mia {
     margin: 40px;
-    max-width: 40vh;
-    max-height: 40vh;
+    max-width: 50vh;
+    max-height: 50vh;
 }
 .mi-descripcion {
     text-align: center;
@@ -209,11 +209,43 @@ text-decoration: underline;
 .lista-info-basica {
 
     font-family: "roboto" sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 20px;
     border-left:#e10600 solid;
     border-radius: 10px;
     padding: 20px;
     margin: 20px auto;
     line-height: 1.6;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+    height: 50vh;
+    
+    
+}
+
+/* seccion circuitos */
+
+.circuitos {
+  background-image: url(foto\ circuito.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 20px; /* espacio arriba y abajoe */
+  color: white; /* o un color que contraste */
+
+}
+
+.titulo-circuitos {
+
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+.flag {
+    font-size: 20px;
+    color: initial;
+}
+.lista-circuitos {
+    max-width: 100vh;
+    font-size: 20px;
 }
