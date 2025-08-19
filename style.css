@@ -134,6 +134,7 @@ text-decoration: double;
 
 .sobre-mi {
     background-color: #aaa9a1;
+    max-height: 100vh;
 
 
     
@@ -152,15 +153,16 @@ text-decoration: double;
 
 }
 .imagen-mia-contenedor {
-    min-width: 100vh;
+    
     text-align: center;
     height:auto;
 
 }
 .imagen-mia {
     margin: 40px;
+    max-width: 40vh;
+    max-height: 40vh;
 }
-
 .mi-descripcion {
     text-align: center;
     justify-content: center;
@@ -172,4 +174,46 @@ padding-top: 20px;
 ;
 }
 
+/* seccion informacion basica */
+.info-basica {
+ background-color: #f9f9f9;
 
+}
+
+
+.titulo-info-basica {
+justify-content: center;
+text-align: center;
+padding: 10x 80px;
+font-family: sans-serif ;
+display: flex;
+/* color: #333; */
+
+color: rgb(56, 54, 54);
+font-weight: 900;
+font-size: 2rem;
+text-transform: uppercase;
+letter-spacing: 1px;
+line-height: 1.2;
+text-decoration: underline;
+}
+
+.subtitulo-info-basica {
+    font-size: 1.5rem;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+    
+}
+
+.lista-info-basica {
+
+    font-family: "roboto" sans-serif;
+    font-weight: 500;
+    border-left:#e10600 solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    line-height: 1.6;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+}
