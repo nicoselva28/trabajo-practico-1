@@ -281,3 +281,15 @@ font-family: sans-serif;
 .imagen-calendario {
     margin-top: 30px;
 }
+
+.site-footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+.footer-container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
